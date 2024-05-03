@@ -76,7 +76,6 @@ class MainActivity : AppCompatActivity() {
         onBackPressedDispatcher.addCallback(this, callback)
 
 
-
         bottomNavigation = binding.bottomNavigation
         bottomNavigation.selectedItemId = R.id.home_nav
         firestoreHelper = FirestoreHelper(this)
